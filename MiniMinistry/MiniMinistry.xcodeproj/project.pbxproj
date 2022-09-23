@@ -20,6 +20,15 @@
 		E644BAEC28DDEEC10070595E /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAEB28DDEEC10070595E /* EditItemView.swift */; };
 		E644BAEE28DDEEE00070595E /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAED28DDEEE00070595E /* SummaryView.swift */; };
 		E644BAF028DDEF040070595E /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAEF28DDEF040070595E /* Footer.swift */; };
+		E644BAF228DDF8C80070595E /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAF128DDF8C80070595E /* StopwatchView.swift */; };
+		E644BAF428DDFD050070595E /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAF328DDFD050070595E /* CoreDataHelpers.swift */; };
+		E644BAF628DDFE3F0070595E /* TimeFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAF528DDFE3F0070595E /* TimeFormater.swift */; };
+		E644BAF828DE0C250070595E /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAF728DE0C250070595E /* DefaultView.swift */; };
+		E644BAFA28DE13120070595E /* MonthSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAF928DE13120070595E /* MonthSelectView.swift */; };
+		E644BAFD28DE1BE20070595E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAFC28DE1BE20070595E /* CategoryView.swift */; };
+		E644BAFF28DE1BF30070595E /* CategoryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAFE28DE1BF30070595E /* CategoryEditView.swift */; };
+		E644BB0128DE1E140070595E /* SummaryInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BB0028DE1E140070595E /* SummaryInfoCard.swift */; };
+		E644BB0428DE1EA70070595E /* SummaryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BB0328DE1EA70070595E /* SummaryHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +65,16 @@
 		E644BAE928DDEEA10070595E /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		E644BAEB28DDEEC10070595E /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		E644BAED28DDEEE00070595E /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
-		E644BAEF28DDEF040070595E /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		E644BAEF28DDEF040070595E /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		E644BAF128DDF8C80070595E /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		E644BAF328DDFD050070595E /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
+		E644BAF528DDFE3F0070595E /* TimeFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormater.swift; sourceTree = "<group>"; };
+		E644BAF728DE0C250070595E /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
+		E644BAF928DE13120070595E /* MonthSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthSelectView.swift; sourceTree = "<group>"; };
+		E644BAFC28DE1BE20070595E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		E644BAFE28DE1BF30070595E /* CategoryEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditView.swift; sourceTree = "<group>"; };
+		E644BB0028DE1E140070595E /* SummaryInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryInfoCard.swift; sourceTree = "<group>"; };
+		E644BB0328DE1EA70070595E /* SummaryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,8 @@
 		E644BAAB28DDE3E80070595E = {
 			isa = PBXGroup;
 			children = (
+				E644BB0228DE1E760070595E /* Edit */,
+				E644BAFB28DE1BA10070595E /* Summary */,
 				E644BAE828DDED900070595E /* Utils */,
 				E644BAE728DDED880070595E /* Views */,
 				E644BAB628DDE3E80070595E /* MiniMinistry */,
@@ -109,6 +129,7 @@
 		E644BAB628DDE3E80070595E /* MiniMinistry */ = {
 			isa = PBXGroup;
 			children = (
+				E644BAB928DDE3E80070595E /* ContentView.swift */,
 				E644BAB728DDE3E80070595E /* MiniMinistryApp.swift */,
 				E644BABB28DDE3E90070595E /* Assets.xcassets */,
 				E644BAC028DDE3E90070595E /* Persistence.swift */,
@@ -147,11 +168,12 @@
 		E644BAE728DDED880070595E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E644BAB928DDE3E80070595E /* ContentView.swift */,
 				E644BAE928DDEEA10070595E /* AddItemView.swift */,
 				E644BAEB28DDEEC10070595E /* EditItemView.swift */,
-				E644BAED28DDEEE00070595E /* SummaryView.swift */,
 				E644BAEF28DDEF040070595E /* Footer.swift */,
+				E644BAF128DDF8C80070595E /* StopwatchView.swift */,
+				E644BAF728DE0C250070595E /* DefaultView.swift */,
+				E644BAF928DE13120070595E /* MonthSelectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,8 +181,29 @@
 		E644BAE828DDED900070595E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E644BAF328DDFD050070595E /* CoreDataHelpers.swift */,
+				E644BAF528DDFE3F0070595E /* TimeFormater.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		E644BAFB28DE1BA10070595E /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				E644BAED28DDEEE00070595E /* SummaryView.swift */,
+				E644BAFC28DE1BE20070595E /* CategoryView.swift */,
+				E644BB0028DE1E140070595E /* SummaryInfoCard.swift */,
+				E644BB0328DE1EA70070595E /* SummaryHeader.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		E644BB0228DE1E760070595E /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				E644BAFE28DE1BF30070595E /* CategoryEditView.swift */,
+			);
+			path = Edit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,14 +336,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E644BAF428DDFD050070595E /* CoreDataHelpers.swift in Sources */,
 				E644BAC128DDE3E90070595E /* Persistence.swift in Sources */,
+				E644BAFF28DE1BF30070595E /* CategoryEditView.swift in Sources */,
 				E644BAEE28DDEEE00070595E /* SummaryView.swift in Sources */,
+				E644BB0128DE1E140070595E /* SummaryInfoCard.swift in Sources */,
 				E644BAC428DDE3E90070595E /* MiniMinistry.xcdatamodeld in Sources */,
 				E644BABA28DDE3E80070595E /* ContentView.swift in Sources */,
+				E644BAF628DDFE3F0070595E /* TimeFormater.swift in Sources */,
 				E644BAB828DDE3E80070595E /* MiniMinistryApp.swift in Sources */,
 				E644BAEA28DDEEA10070595E /* AddItemView.swift in Sources */,
+				E644BAFD28DE1BE20070595E /* CategoryView.swift in Sources */,
+				E644BAF828DE0C250070595E /* DefaultView.swift in Sources */,
 				E644BAF028DDEF040070595E /* Footer.swift in Sources */,
 				E644BAEC28DDEEC10070595E /* EditItemView.swift in Sources */,
+				E644BAFA28DE13120070595E /* MonthSelectView.swift in Sources */,
+				E644BB0428DE1EA70070595E /* SummaryHeader.swift in Sources */,
+				E644BAF228DDF8C80070595E /* StopwatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

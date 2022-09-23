@@ -1,5 +1,5 @@
 //
-//  AddItemView.swift
+//  StopwatchView.swift
 //  MiniMinistry
 //
 //  Created by Tomáš Valášek on 23.09.2022.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct AddItemView: View {
+struct StopwatchView: View {
     
     var body: some View {
         VStack {
-            Text("Add item View")
+            Text("Stopwatch")
         }.padding()
         .onAppear {
         }

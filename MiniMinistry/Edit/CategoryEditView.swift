@@ -1,5 +1,5 @@
 //
-//  AddItemView.swift
+//  CategoryEditView.swift
 //  MiniMinistry
 //
 //  Created by Tomáš Valášek on 23.09.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddItemView: View {
+struct CategoryEditView: View {
     
     var body: some View {
         VStack {
