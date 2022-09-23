@@ -1,0 +1,2 @@
+# SwiftMiniMinistry
+MiniMinistry in Swift
