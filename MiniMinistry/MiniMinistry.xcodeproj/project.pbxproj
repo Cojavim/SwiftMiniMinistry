@@ -13,9 +13,6 @@
 		E644BABF28DDE3E90070595E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E644BABE28DDE3E90070595E /* Preview Assets.xcassets */; };
 		E644BAC128DDE3E90070595E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAC028DDE3E90070595E /* Persistence.swift */; };
 		E644BAC428DDE3E90070595E /* MiniMinistry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E644BAC228DDE3E90070595E /* MiniMinistry.xcdatamodeld */; };
-		E644BACF28DDE3E90070595E /* MiniMinistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BACE28DDE3E90070595E /* MiniMinistryTests.swift */; };
-		E644BAD928DDE3E90070595E /* MiniMinistryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAD828DDE3E90070595E /* MiniMinistryUITests.swift */; };
-		E644BADB28DDE3E90070595E /* MiniMinistryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BADA28DDE3E90070595E /* MiniMinistryUITestsLaunchTests.swift */; };
 		E644BAEA28DDEEA10070595E /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAE928DDEEA10070595E /* AddItemView.swift */; };
 		E644BAEC28DDEEC10070595E /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAEB28DDEEC10070595E /* EditItemView.swift */; };
 		E644BAEE28DDEEE00070595E /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BAED28DDEEE00070595E /* SummaryView.swift */; };
@@ -31,23 +28,6 @@
 		E644BB0428DE1EA70070595E /* SummaryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644BB0328DE1EA70070595E /* SummaryHeader.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E644BACB28DDE3E90070595E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E644BAAC28DDE3E80070595E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E644BAB328DDE3E80070595E;
-			remoteInfo = MiniMinistry;
-		};
-		E644BAD528DDE3E90070595E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E644BAAC28DDE3E80070595E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E644BAB328DDE3E80070595E;
-			remoteInfo = MiniMinistry;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E644BAB428DDE3E80070595E /* MiniMinistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMinistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E644BAB728DDE3E80070595E /* MiniMinistryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMinistryApp.swift; sourceTree = "<group>"; };
@@ -57,11 +37,6 @@
 		E644BAC028DDE3E90070595E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E644BAC328DDE3E90070595E /* MiniMinistry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniMinistry.xcdatamodel; sourceTree = "<group>"; };
 		E644BAC528DDE3E90070595E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E644BACA28DDE3E90070595E /* MiniMinistryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMinistryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E644BACE28DDE3E90070595E /* MiniMinistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMinistryTests.swift; sourceTree = "<group>"; };
-		E644BAD428DDE3E90070595E /* MiniMinistryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMinistryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E644BAD828DDE3E90070595E /* MiniMinistryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMinistryUITests.swift; sourceTree = "<group>"; };
-		E644BADA28DDE3E90070595E /* MiniMinistryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMinistryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E644BAE928DDEEA10070595E /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		E644BAEB28DDEEC10070595E /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		E644BAED28DDEEE00070595E /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
@@ -85,33 +60,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E644BAC728DDE3E90070595E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E644BAD128DDE3E90070595E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E644BAAB28DDE3E80070595E = {
 			isa = PBXGroup;
 			children = (
-				E644BB0228DE1E760070595E /* Edit */,
-				E644BAFB28DE1BA10070595E /* Summary */,
-				E644BAE828DDED900070595E /* Utils */,
-				E644BAE728DDED880070595E /* Views */,
 				E644BAB628DDE3E80070595E /* MiniMinistry */,
-				E644BACD28DDE3E90070595E /* MiniMinistryTests */,
-				E644BAD728DDE3E90070595E /* MiniMinistryUITests */,
 				E644BAB528DDE3E80070595E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				E644BAB428DDE3E80070595E /* MiniMinistry.app */,
-				E644BACA28DDE3E90070595E /* MiniMinistryTests.xctest */,
-				E644BAD428DDE3E90070595E /* MiniMinistryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +82,10 @@
 		E644BAB628DDE3E80070595E /* MiniMinistry */ = {
 			isa = PBXGroup;
 			children = (
+				E644BB0228DE1E760070595E /* Edit */,
+				E644BAFB28DE1BA10070595E /* Summary */,
+				E644BAE828DDED900070595E /* Utils */,
+				E644BAE728DDED880070595E /* Views */,
 				E644BAB928DDE3E80070595E /* ContentView.swift */,
 				E644BAB728DDE3E80070595E /* MiniMinistryApp.swift */,
 				E644BABB28DDE3E90070595E /* Assets.xcassets */,
@@ -146,23 +103,6 @@
 				E644BABE28DDE3E90070595E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E644BACD28DDE3E90070595E /* MiniMinistryTests */ = {
-			isa = PBXGroup;
-			children = (
-				E644BACE28DDE3E90070595E /* MiniMinistryTests.swift */,
-			);
-			path = MiniMinistryTests;
-			sourceTree = "<group>";
-		};
-		E644BAD728DDE3E90070595E /* MiniMinistryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E644BAD828DDE3E90070595E /* MiniMinistryUITests.swift */,
-				E644BADA28DDE3E90070595E /* MiniMinistryUITestsLaunchTests.swift */,
-			);
-			path = MiniMinistryUITests;
 			sourceTree = "<group>";
 		};
 		E644BAE728DDED880070595E /* Views */ = {
@@ -226,42 +166,6 @@
 			productReference = E644BAB428DDE3E80070595E /* MiniMinistry.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E644BAC928DDE3E90070595E /* MiniMinistryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E644BAE128DDE3E90070595E /* Build configuration list for PBXNativeTarget "MiniMinistryTests" */;
-			buildPhases = (
-				E644BAC628DDE3E90070595E /* Sources */,
-				E644BAC728DDE3E90070595E /* Frameworks */,
-				E644BAC828DDE3E90070595E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E644BACC28DDE3E90070595E /* PBXTargetDependency */,
-			);
-			name = MiniMinistryTests;
-			productName = MiniMinistryTests;
-			productReference = E644BACA28DDE3E90070595E /* MiniMinistryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E644BAD328DDE3E90070595E /* MiniMinistryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E644BAE428DDE3E90070595E /* Build configuration list for PBXNativeTarget "MiniMinistryUITests" */;
-			buildPhases = (
-				E644BAD028DDE3E90070595E /* Sources */,
-				E644BAD128DDE3E90070595E /* Frameworks */,
-				E644BAD228DDE3E90070595E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E644BAD628DDE3E90070595E /* PBXTargetDependency */,
-			);
-			name = MiniMinistryUITests;
-			productName = MiniMinistryUITests;
-			productReference = E644BAD428DDE3E90070595E /* MiniMinistryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -274,14 +178,6 @@
 				TargetAttributes = {
 					E644BAB328DDE3E80070595E = {
 						CreatedOnToolsVersion = 14.0;
-					};
-					E644BAC928DDE3E90070595E = {
-						CreatedOnToolsVersion = 14.0;
-						TestTargetID = E644BAB328DDE3E80070595E;
-					};
-					E644BAD328DDE3E90070595E = {
-						CreatedOnToolsVersion = 14.0;
-						TestTargetID = E644BAB328DDE3E80070595E;
 					};
 				};
 			};
@@ -299,8 +195,6 @@
 			projectRoot = "";
 			targets = (
 				E644BAB328DDE3E80070595E /* MiniMinistry */,
-				E644BAC928DDE3E90070595E /* MiniMinistryTests */,
-				E644BAD328DDE3E90070595E /* MiniMinistryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,20 +206,6 @@
 			files = (
 				E644BABF28DDE3E90070595E /* Preview Assets.xcassets in Resources */,
 				E644BABC28DDE3E90070595E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E644BAC828DDE3E90070595E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E644BAD228DDE3E90070595E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,37 +236,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E644BAC628DDE3E90070595E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E644BACF28DDE3E90070595E /* MiniMinistryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E644BAD028DDE3E90070595E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E644BADB28DDE3E90070595E /* MiniMinistryUITestsLaunchTests.swift in Sources */,
-				E644BAD928DDE3E90070595E /* MiniMinistryUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E644BACC28DDE3E90070595E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E644BAB328DDE3E80070595E /* MiniMinistry */;
-			targetProxy = E644BACB28DDE3E90070595E /* PBXContainerItemProxy */;
-		};
-		E644BAD628DDE3E90070595E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E644BAB328DDE3E80070595E /* MiniMinistry */;
-			targetProxy = E644BAD528DDE3E90070595E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E644BADC28DDE3E90070595E /* Debug */ = {
@@ -569,82 +419,6 @@
 			};
 			name = Release;
 		};
-		E644BAE228DDE3E90070595E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FXP32TTR6H;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jajsemtomas.MiniMinistryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMinistry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniMinistry";
-			};
-			name = Debug;
-		};
-		E644BAE328DDE3E90070595E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FXP32TTR6H;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jajsemtomas.MiniMinistryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMinistry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniMinistry";
-			};
-			name = Release;
-		};
-		E644BAE528DDE3E90070595E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FXP32TTR6H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jajsemtomas.MiniMinistryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniMinistry;
-			};
-			name = Debug;
-		};
-		E644BAE628DDE3E90070595E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FXP32TTR6H;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jajsemtomas.MiniMinistryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MiniMinistry;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -662,24 +436,6 @@
 			buildConfigurations = (
 				E644BADF28DDE3E90070595E /* Debug */,
 				E644BAE028DDE3E90070595E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E644BAE128DDE3E90070595E /* Build configuration list for PBXNativeTarget "MiniMinistryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E644BAE228DDE3E90070595E /* Debug */,
-				E644BAE328DDE3E90070595E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E644BAE428DDE3E90070595E /* Build configuration list for PBXNativeTarget "MiniMinistryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E644BAE528DDE3E90070595E /* Debug */,
-				E644BAE628DDE3E90070595E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
